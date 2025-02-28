@@ -12,7 +12,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 
-csv_url = "collage_data.csv""
+csv_url = "collage_data.csv"
 
 try:
     df = pd.read_csv(csv_url)
